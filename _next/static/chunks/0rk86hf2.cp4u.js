@@ -10820,7 +10820,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                 n: "02",
                 tag: "30'",
                 h: "Fund with SOL",
-                p: "Buy SOL on your preferred exchange (Binance, etc.). Withdraw to your wallet EVM address.",
+                p: "Buy SOL on your preferred exchange (Binance, etc.). Withdraw to your wallet Phantom address.",
             },
             {
                 n: "03",
