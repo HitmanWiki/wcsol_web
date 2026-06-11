@@ -8903,82 +8903,53 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
             });
         }
 
-        function r5({
-            className: e = ""
-        }) {
-            let [t, i] = (0, p.useState)(!1);
-            return (0, r.jsx)(rX.button, {
-                type: "button",
-                whileTap: {
-                    scale: 0.96
+       function r5({
+    className: e = ""
+}) {
+    return (0, r.jsx)(rX.button, {
+        type: "button",
+        whileTap: {
+            scale: 0.96
+        },
+        onClick: () => {
+            // Open the link in a new tab
+            window.open("https://dapp.worldcup2026sol.com", "_blank");
+        },
+        className: `group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-b from-gold-200 to-gold-600 font-oswald font-semibold uppercase tracking-[0.18em] text-ink shadow-coin transition-transform hover:scale-[1.04] ${e}`,
+        children: (0, r.jsx)(r0, {
+            mode: "wait",
+            initial: false,
+            children: (0, r.jsxs)(
+                rX.span, {
+                    initial: {
+                        opacity: 0,
+                        y: 8
+                    },
+                    animate: {
+                        opacity: 1,
+                        y: 0
+                    },
+                    exit: {
+                        opacity: 0,
+                        y: -8
+                    },
+                    transition: {
+                        duration: 0.2,
+                        ease: [0.22, 1, 0.36, 1]
+                    },
+                    className: "flex items-center gap-2.5",
+                    children: [
+                        "Launch dApp",
+                        (0, r.jsx)(r1, {
+                            className: "h-4 w-4 transition-transform group-hover:translate-x-0.5",
+                        }),
+                    ],
                 },
-                onClick: () => {
-                    t || (i(!0), setTimeout(() => i(!1), 2200));
-                },
-                className: `group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-b from-gold-200 to-gold-600 font-oswald font-semibold uppercase tracking-[0.18em] text-ink shadow-coin transition-transform hover:scale-[1.04] ${e}`,
-                children: (0, r.jsx)(r0, {
-                    mode: "wait",
-                    initial: !1,
-                    children: t ?
-                        (0, r.jsxs)(
-                            rX.span, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 8
-                                },
-                                animate: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                exit: {
-                                    opacity: 0,
-                                    y: -8
-                                },
-                                transition: {
-                                    duration: 0.2,
-                                    ease: [0.22, 1, 0.36, 1]
-                                },
-                                className: "flex items-center gap-2",
-                                children: [
-                                    (0, r.jsx)(r2, {
-                                        className: "h-4 w-4"
-                                    }),
-                                    "Coming Soon",
-                                ],
-                            },
-                            "soon"
-                        ) :
-                        (0, r.jsxs)(
-                            rX.span, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 8
-                                },
-                                animate: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                exit: {
-                                    opacity: 0,
-                                    y: -8
-                                },
-                                transition: {
-                                    duration: 0.2,
-                                    ease: [0.22, 1, 0.36, 1]
-                                },
-                                className: "flex items-center gap-2.5",
-                                children: [
-                                    "Launch dApp",
-                                    (0, r.jsx)(r1, {
-                                        className: "h-4 w-4 transition-transform group-hover:translate-x-0.5",
-                                    }),
-                                ],
-                            },
-                            "launch"
-                        ),
-                }),
-            });
-        }
+                "launch"
+            ),
+        }),
+    });
+}
 
         function r3(e) {
             return (0, r.jsx)("svg", {
