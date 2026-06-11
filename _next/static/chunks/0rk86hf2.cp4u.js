@@ -874,8 +874,8 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
         var p = e.i(91788),
             m = e.i(26019);
         let f = "wc",
-            g = "BBBBBBBBBBBBBBBBBBpump",
-            x = "https://pump.fun/",
+            g = "4do9BzEuB7mRhqW2BLprJiW5QvwEUQPEb6gRaCCLpump",
+            x = "https://pump.fun/coin/4do9BzEuB7mRhqW2BLprJiW5QvwEUQPEb6gRaCCLpump",
             y = "https://x.com/WorldCupTok3n",
             v = "https://t.me/",
             w = [{
@@ -10797,7 +10797,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                 n: "03",
                 tag: "60'",
                 h: "Go to Jupiter",
-                p: "Open Jupiter > Swap. Select SOL > $WORLDCUP. Paste the contract: BBBBBBBBBBBBBBBBBBpump",
+                p: "Open Jupiter > Swap. Select SOL > $WORLDCUP. Paste the contract: 4do9BzEuB7mRhqW2BLprJiW5QvwEUQPEb6gRaCCLpump",
             },
             {
                 n: "04",
